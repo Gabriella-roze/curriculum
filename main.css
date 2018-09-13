@@ -1,0 +1,89 @@
+body{
+  margin: 0px;
+}
+
+footer{
+  background-color: #243248;
+  color: white;
+  margin: 0px;
+  padding: 3vw;
+}
+
+.logo{
+  width: 15vw;
+}
+
+.content{
+  margin-right: 70px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.menu{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 50vw;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #EBE9E4;
+}
+
+.sem1{
+  grid-area: sem1;
+  width: 100%;
+}
+.sem2{
+  grid-area: sem2;
+  width: 100%;
+}
+.sem3{
+  grid-area: sem3;
+  width: 100%;
+}
+.sem4{
+  grid-area: sem4;
+  width: 100%;
+}
+.exams{
+  grid-area: exams;
+  width: 100%;
+}
+
+.text1{
+  grid-area: text1;
+}
+
+.text2{
+  grid-area: text2;
+}
+.text3{
+  grid-area: text3;
+}
+.text4{
+  grid-area: text4;
+}
+.text_exam{
+  grid-area: text_exam;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+"sem1 text1"
+"text2 sem2"
+"sem3 text3"
+"text4 sem4"
+"exams text_exam";
+
+}
