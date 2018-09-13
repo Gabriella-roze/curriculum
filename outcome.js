@@ -9,8 +9,16 @@ const templateArticle = document.querySelector("#tpl").content;
 // Append child
 
 window.addEventListener("load", ()=>{
-  fetch("data.json").then(result=>result.json()).then(showSkill)
+  fetch("data.json")
+    .then(result=>result.json())
+    .then(data=>{
+      showSkill(data);
+      showJob(data)
+    })
+    //.then(showSkill)
+
 });
+
 
 function showSkill(data) {
   // Clone and Edit
@@ -21,4 +29,10 @@ function showSkill(data) {
   cloneArticle.querySelector("h2").innerHTML = data.outcome[0].paragraph[0].title;
   cloneArticle.querySelector("p").innerHTML = data.outcome[0].paragraph[0].text;
   parentSkill.appendChild(cloneArticle);
+}
+function showJob(data) {
+  let cloneArticle = templateArticle.cloneNode(true);
+  cloneArticle.querySelector("h2").innerHTML = data.outcome[0].paragraph[1].title;
+  cloneArticle.querySelector("p").innerHTML = data.outcome[0].paragraph[1].text;
+  parentJob.appendChild(cloneArticle);
 }

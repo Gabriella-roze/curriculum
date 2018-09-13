@@ -90,13 +90,19 @@ nav{
 "text4 sem4"
 "exams text_exam";
 }
-.hero__img {
+.hero__img--skill {
   margin: 0px;
   width: 100vw;
   height: 80vh;
   background: url("images/skills.jpg") center no-repeat;
   background-size: cover;
-
+}
+.hero__img--job {
+  margin: 0px;
+  width: 100vw;
+  height: 80vh;
+  background: url("images/job.jpg") center no-repeat;
+  background-size: cover;
 }
 .hero__title {
   font-family: sans-serif;
@@ -111,6 +117,7 @@ nav{
 .hero__title--bold {
   font-size: 2em;
 }
-.par-skill, par-job {
-  margin-left: 10vw;
+.par-skill, .par-job {
+  padding: 10vw 15vw;
+  margin: 5vh 0px;
 }
