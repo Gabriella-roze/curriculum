@@ -21,7 +21,6 @@ footer{
 .content{
   margin-right: 70px;
 }
-
 a{
   text-decoration: none;
   color: black;
@@ -43,7 +42,6 @@ nav{
   align-items: center;
   background-color: #EBE9E4;
 }
-
 .sem1{
   grid-area: sem1;
   width: 100%;
@@ -81,7 +79,6 @@ nav{
 .text_exam{
   grid-area: text_exam;
 }
-
 .grid{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -92,5 +89,28 @@ nav{
 "sem3 text3"
 "text4 sem4"
 "exams text_exam";
+}
+.hero__img {
+  margin: 0px;
+  width: 100vw;
+  height: 80vh;
+  background: url("images/skills.jpg") center no-repeat;
+  background-size: cover;
 
+}
+.hero__title {
+  font-family: sans-serif;
+  padding: 40px;
+  background: rgba(45, 76, 121, 0.6);
+  margin: 0px;
+  width: 35vw;
+  position: relative;
+  top: 40%;
+  color: white;
+}
+.hero__title--bold {
+  font-size: 2em;
+}
+.par-skill, par-job {
+  margin-left: 10vw;
 }
