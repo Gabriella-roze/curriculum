@@ -82,6 +82,17 @@ nav{
 .text_exam{
   grid-area: text_exam;
 }
+
+.text{
+  margin: 2vw;
+  line-height: 3.5vh;
+  font-size: 2vh;
+}
+h2, h3 {
+  font-size: 2.5vh;
+}
+
+
 .grid{
   display: grid;
   grid-template-columns: 1fr 1fr;
