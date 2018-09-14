@@ -88,6 +88,16 @@ nav{
   line-height: 3.5vh;
   font-size: 2vh;
 }
+
+.text1, .text3, .text_exam{
+  margin-right: 6vw;
+}
+
+.text2, .text4 {
+  margin-left: 6vw;
+}
+
+
 h2, h3 {
   font-size: 2.5vh;
 }
