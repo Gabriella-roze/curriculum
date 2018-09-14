@@ -7,7 +7,7 @@
     },
       {
         "title": "Job opportunities",
-        "text": "<p>As a graduate in Multimedia Design, you will be a digital entrepreneur with a tool box that enables you to work within a broad range of industries. Your job will typically involve designing, planning and managing multimedia tasks. <br/>You may find work at a digital agency, you may become a digital manager in small or medium-sized companies or you may become your own digital agency if you choose to start as an entrepreneur with your own agency. </p><p>Basically, after finishing the programme and becoming a digital master, you can easily find a jobsuch as: <br/>Frontend designer </br>Frontend developper <br/>UX designer </br>Content manager <br/>SoMe manager <br/>Content creator <br/>E-commerce developper <br/>Good luck!</p>"
+        "text": "<p>As a graduate in Multimedia Design, you will be a digital entrepreneur with a tool box that enables you to work within a broad range of industries. Your job will typically involve designing, planning and managing multimedia tasks. <br/>You may find work at a digital agency, you may become a digital manager in small or medium-sized companies or you may become your own digital agency if you choose to start as an entrepreneur with your own agency. </p><p>Basically, after finishing the programme and becoming a digital master, you can easily find a job such as:<br/> <ul><li>Frontend designer </li><li>Frontend developper </li><li>UX designer </li><li>Content manager </li><li>SoMe manager </li><li>Content creator </li><li>E-commerce developper </li><li>Good luck!</li></ul></p>"
       }
     ]
   }],
@@ -46,7 +46,7 @@
     {
       "name": "Exams",
       "paragraph": [{
-        "paragraph": "<p>Each semester concludes with an exam in which you prove practically that you have understood and that you are capable to use the methods, design principles and programming languages that you have been taught during classes. The exam consists of an oral and written part with an external co-examiner, where a single aggregate individual grade according to the 7-point grading scale is awarded for the written project and the oral performance.</p>"
+        "paragraph": "<p>Each semester concludes with an exam in which you prove practically that you have understood and that you are capable to use the methods, design principles and programming languages that you have been taught during classes.</p><p> The exam consists of an oral and written part with an external co-examiner, where a single aggregate individual grade according to the 7-point grading scale is awarded for the written project and the oral performance.</p>"
       }]
     }
   ]
