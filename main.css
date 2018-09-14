@@ -12,7 +12,10 @@ footer{
   margin: 0px;
   padding: 3vw;
 }
-
+.frontpage_photo{
+  width: 100%;
+  grid-area: frontpage_photo;
+}
 .logo{
   /* width: 15vw; */
   height: 9vh;
@@ -89,6 +92,13 @@ nav{
 "sem3 text3"
 "text4 sem4"
 "exams text_exam";
+}
+.grid_index{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "frontpage_photo frontpage_text";
 }
 .hero__img--skill {
   margin: 0px;
