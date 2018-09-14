@@ -43,7 +43,7 @@ nav{
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: coral;
+  background-color: #C1DBFE;
 }
 .sem1{
   grid-area: sem1;
