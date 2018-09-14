@@ -15,8 +15,6 @@ window.addEventListener("load", ()=>{
       showSkill(data);
       showJob(data)
     })
-    //.then(showSkill)
-
 });
 
 
