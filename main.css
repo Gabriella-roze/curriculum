@@ -110,8 +110,6 @@ nav{
   justify-content: space-between;
   align-items: center;
   background-color: #C1DBFE;
-  position: sticky;
-  top: 0px;
 }
 .pic_content{
   width: 100%;
@@ -205,9 +203,6 @@ h2, h3 {
   grid-template-areas:
   "frontpage_photo frontpage_text";
 }
-.grid_index img {
-  width: 100%;
-}
 .hero__img--skill {
   margin: 0px;
   width: 100vw;
@@ -215,12 +210,6 @@ h2, h3 {
   background: url("images/skills.jpg") no-repeat center;
   background-size: cover;
 }
-.frontpage_text {
-  grid-area: frontpage_text;
-  display: flex;
-  align-items: center;
-}
-
 .hero__img--job {
   margin: 0px;
   width: 100vw;
