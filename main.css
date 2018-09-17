@@ -5,6 +5,12 @@ body{
 .current{
   background-color: #243248;
   color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 9vh;
+padding-left: 3vw;
+padding-right: 3vw;
 }
 footer{
   background-color: #243248;
@@ -53,7 +59,6 @@ footer{
 .white{
   color: white;
   background-color: rgba(194, 220, 253, 0.7);
-
 }
 
 
@@ -66,14 +71,18 @@ footer{
   height: 9vh;
 }
 
-.content{
-  margin-right: 70px;
+.content, .outcome{
+  margin-right: 20px;
+  margin-left: 20px;
 }
+
+
 a{
   text-decoration: none;
   color: black;
-  height: 9vh;
 }
+
+
 
 .menu{
   display: flex;
