@@ -12,6 +12,51 @@ footer{
   margin: 0px;
   padding: 3vw;
 }
+/* .sem{
+  width: 1200px;
+  height: 800px;
+} */
+.pic_title--right{
+  position: relative;
+  z-index: 3;
+  bottom: 15vh;
+  left: 33vw;
+  background-color: rgba(194, 220, 253, 0.5);
+  font-size: 2vw;
+  width: 16vw;
+  padding: 1vw;
+}
+
+.pic_title--exams{
+  position: relative;
+  z-index: 3;
+  top: 14vh;
+  left: 33vw;
+  background-color: rgba(194, 220, 253, 0.5);
+  font-size: 2vw;
+  width: 16vw;
+  padding: 1vw;
+  color: white;
+}
+
+.pic_title--left{
+  position: relative;
+  z-index: 3;
+  bottom: 15vh;
+  left: -1vw;
+  background-color: rgba(194, 220, 253, 0.5);
+  font-size: 2vw;
+  width: 16vw;
+  padding: 1vw;
+  text-align: right;
+}
+.white{
+  color: white;
+  background-color: rgba(194, 220, 253, 0.7);
+
+}
+
+
 .frontpage_photo{
   width: 100%;
   grid-area: frontpage_photo;
@@ -45,25 +90,23 @@ nav{
   align-items: center;
   background-color: #C1DBFE;
 }
+.pic_content{
+  width: 100%;
+}
 .sem1{
   grid-area: sem1;
-  width: 100%;
 }
 .sem2{
   grid-area: sem2;
-  width: 100%;
 }
 .sem3{
   grid-area: sem3;
-  width: 100%;
 }
 .sem4{
   grid-area: sem4;
-  width: 100%;
 }
 .exams{
   grid-area: exams;
-  width: 100%;
 }
 
 .text1{
@@ -88,6 +131,7 @@ nav{
   line-height: 3.5vh;
   font-size: 2vh;
   margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .text1, .text3, .text_exam{
