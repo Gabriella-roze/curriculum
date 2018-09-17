@@ -42,16 +42,18 @@ function showText2(data) {
 }
 function showText3(data) {
   // Clone and Edit
-  console.log(data.contentOfProgramme[2].paragraph[0]);
+  //console.log(data.contentOfProgramme[2].paragraph[0].name);
   let cloneArticle = templateArticle.cloneNode(true);
+  cloneArticle.querySelector("h2").innerHTML = data.contentOfProgramme[2].paragraph[0].name;
   cloneArticle.querySelector("p").innerHTML = data.contentOfProgramme[2].paragraph[0].paragraph;
   // Append child
   parentText3.appendChild(cloneArticle);
 }
 function showText4(data) {
   // Clone and Edit
-  //console.log(data.contentOfProgramme[0].paragraph[1]);
+  console.log(data.contentOfProgramme[3].paragraph[0].name);
   let cloneArticle = templateArticle.cloneNode(true);
+  cloneArticle.querySelector("h2").innerHTML = data.contentOfProgramme[3].paragraph[0].name;
   cloneArticle.querySelector("p").innerHTML = data.contentOfProgramme[3].paragraph[0].paragraph;
   // Append child
   parentText4.appendChild(cloneArticle);
@@ -60,6 +62,7 @@ function showTextExam(data) {
   // Clone and Edit
   //console.log(data.contentOfProgramme[0].paragraph[1]);
   let cloneArticle = templateArticle.cloneNode(true);
+  cloneArticle.querySelector("h2").innerHTML = data.contentOfProgramme[4].paragraph[0].name;
   cloneArticle.querySelector("p").innerHTML = data.contentOfProgramme[4].paragraph[0].paragraph;
   // Append child
   parentTextExam.appendChild(cloneArticle);

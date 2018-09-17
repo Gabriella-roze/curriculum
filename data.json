@@ -34,18 +34,21 @@
     {
       "name": "3rd semester",
       "paragraph": [{
-        "paragraph": "<p>In addition to the obligatory subjects, we offer local specialisations in e.g. frontend design, frontend development, or content creation. We are constantly developing new elective subjects in relation to relevance and demand.</p>"
+        "name": "Electives",
+        "paragraph": "<p>In addition to the obligatory subjects, we offer local specialisations in e.g. frontend design, frontend development, or content creation. We are constantly developing new elective subjects in relation to relevance and demand.</p> <ul><li>Elective 1: Digital Design og Indhold (taught in Danish) </br> During this elective you will gain skills in delivering responsive design, creative written and visual content, dynamic user interfaces, enhanced user experiences as you engage in social media.</li><li>Elective 2: Persuasive Content (taught in English) </br> Writing and designing in order to promote and persuade must be your highest goal if you wish to follow this elective. Providing the user the best experience on a website will definitely make you valuable and wanted in such a business, as you will have everything in control.</li><li>Elective 3: FrontEnd Design (taught in English) </br> If you want to develop yourself more on programming and user experience projects, you are for sure to attend this elective. Here, you will focus on developing your skills working with HTML, CSS and JS, as well as working with JS frameworks.</li></ul>"
       }]
     },
     {
       "name": "4th semester",
       "paragraph": [{
+        "name": "Internship",
         "paragraph": "<p>In the fourth semester of the programme, you must do a ten-week internship either in Denmark or abroad. Here, you get the chance to test your digital skills in practice and to strengthen your professional network, which you can benefit from once your graduate.</p><p> You can choose between entrepreneurial, virtual and project-based internship. After the internship period, you will take a test based on a report describing your individual internship.</p><p> Regarding the preparation for this, you will have a KEA coordinator to help you with the practicabilities, which you must help organise yourself, including finding a host company.</p>"
       }]
     },
     {
       "name": "Exams",
       "paragraph": [{
+        "name": "Final evaluation",
         "paragraph": "<p>Each semester concludes with an exam in which you prove practically that you have understood and that you are capable to use the methods, design principles and programming languages that you have been taught during classes.</p><p> The exam consists of an oral and written part with an external co-examiner, where a single aggregate individual grade according to the 7-point grading scale is awarded for the written project and the oral performance.</p>"
       }]
     }
