@@ -186,7 +186,7 @@ h2, h3 {
 .grid{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
+  grid-template-rows: repeat(5, 70vh);
   grid-template-areas:
 "sem1 text1"
 "text2 sem2"
