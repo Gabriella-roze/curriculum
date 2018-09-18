@@ -76,6 +76,8 @@ background-size: cover;
 
 .logo{
   height: 9vh;
+  position: absolute;
+  top: 0;
 }
 
 .content, .outcome{
@@ -107,11 +109,15 @@ a{
 }
 
 nav{
+  position: sticky;
+  top: 0;
+  z-index: 5;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   background-color: #C1DBFE;
+  height: 9vh;
 }
 .pic_content{
   width: 100%;
