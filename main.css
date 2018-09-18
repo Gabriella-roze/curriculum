@@ -246,8 +246,10 @@ h2, h3 {
   margin: 0px;
   width: 35vw;
   position: relative;
-  top: 40%;
+  top: 30%;
   color: white;
+  padding-top: 20px;
+  padding-right: 20px;
 }
 .hero__title--bold {
   font-size: 2em;
