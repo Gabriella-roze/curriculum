@@ -196,6 +196,7 @@ h2, h3 {
 "text4 sem4"
 "exams text_exam";
 }
+
 .grid_index{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -203,6 +204,17 @@ h2, h3 {
   grid-template-areas:
   "frontpage_photo frontpage_text";
 }
+
+.frontpage_text{
+  grid-area: frontpage_text;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mmd{
+  width: 100%;
+}
+
 .hero__img--skill {
   margin: 0px;
   width: 100vw;
