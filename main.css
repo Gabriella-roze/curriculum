@@ -116,7 +116,7 @@ nav{
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: white;
+  /* background-color: white; */
   height: 9vh;
   transition: .5s;
 }
@@ -124,6 +124,7 @@ nav{
 .shrink{
   background-color: rgba(194, 220, 253, 0.7);
 }
+
 .pic_content{
   width: 100%;
 }
@@ -233,9 +234,17 @@ h2, h3 {
   margin: 0px;
   width: 100vw;
   height: 80vh;
-  background: url("images/skills.jpg") no-repeat center;
+  /* background: url("images/skills.jpg") no-repeat center; */
   background-size: cover;
 }
+.img_skills{
+  position: fixed;
+  top:0;
+  left: 0;
+  z-index: -5;
+  width: 140%;
+}
+
 .hero__img--job {
   margin: 0px;
   width: 100vw;
@@ -262,5 +271,11 @@ h2, h3 {
 }
 .par-skill, .par-job {
   padding: 10vh 15vw;
-  margin: 5vh 0px;
+  /* margin: 5vh 0px; */
+  background-color: white;
+}
+
+
+.background_blue{
+  background-color: rgba(194, 220, 253, 0.3);
 }

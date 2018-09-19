@@ -34,7 +34,7 @@ function showJob(data) {
 
 $(document).ready(function(){
   $(window).scroll(function(){
-    if ($(this).scrollTop() > 50){
+    if ($(this).scrollTop() > 530){
       $('nav').addClass('shrink')
     }
     else {
