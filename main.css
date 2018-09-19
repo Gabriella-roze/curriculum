@@ -116,8 +116,13 @@ nav{
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: #C1DBFE;
+  background-color: white;
   height: 9vh;
+  transition: .5s;
+}
+
+.shrink{
+  background-color: rgba(194, 220, 253, 0.7);
 }
 .pic_content{
   width: 100%;

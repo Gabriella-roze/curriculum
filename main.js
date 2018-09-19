@@ -67,3 +67,16 @@ function showTextExam(data) {
   // Append child
   parentTextExam.appendChild(cloneArticle);
 }
+
+// changing opacity manu bar
+
+$(document).ready(function(){
+  $(window).scroll(function(){
+    if ($(this).scrollTop() > 50){
+      $('nav').addClass('shrink')
+    }
+    else {
+      $("nav").removeClass('shrink')
+    }
+  })
+})

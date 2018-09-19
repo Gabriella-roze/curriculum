@@ -30,3 +30,15 @@ function showJob(data) {
   // Append child
   parentJob.appendChild(cloneArticle);
 }
+
+
+$(document).ready(function(){
+  $(window).scroll(function(){
+    if ($(this).scrollTop() > 50){
+      $('nav').addClass('shrink')
+    }
+    else {
+      $("nav").removeClass('shrink')
+    }
+  })
+})
