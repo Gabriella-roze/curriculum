@@ -20,6 +20,9 @@ footer{
   color: white;
   margin: 0px;
   padding: 1.2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sem{
