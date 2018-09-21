@@ -282,3 +282,101 @@ h2, h3 {
 .background_blue{
   background-color: rgba(194, 220, 253, 0.3);
 }
+
+
+
+@media all and (max-width:600px){
+  .grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+  "sem1"
+  "text1"
+  "sem2"
+  "text2"
+  "sem3 "
+  "text3"
+  "sem4"
+  "text4 "
+  "exams "
+  "text_exam";
+  }
+
+  .sem1, .sem2, .sem3, .sem4, .exams{
+    height: 40vh;
+  }
+
+.pic_title--left, .pic_title--right, .pic_title--exams{
+  position: absolute;
+  z-index: 3;
+  bottom: 10vh;
+  left: -1vw;
+  background-color: rgba(194, 220, 253, 0.5);
+  font-size: 2em;
+  width: 35vw;
+  padding: 1vw;
+  text-align: left;
+}
+
+.black{
+  color: black;
+}
+
+.pic_title--exams{
+  height: 10vh;
+}
+
+.grid_index{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "frontpage_text"
+    "frontpage_photo"
+    ;
+}
+.frontpage_photo{
+  height: 30vh;
+}
+.frontpage_text{
+  height: 45vh;
+}
+
+.hero__title{
+  font-weight: 400;
+  font-size: 1em;
+  padding: 10px;
+  margin: 0px;
+  width: 60vw;
+  position: relative;
+  top: 20%;
+  color: white;
+  padding-top: 5px;
+  padding-right: 10px;
+}
+.hero__img--skill{
+  height: 30vh;
+}
+
+.hero__img--job{
+  height: 30vh;
+}
+a{
+  font-size: 13px;
+}
+.logo{
+  width: 30vw;
+  height: auto;
+}
+
+.menu{
+  width: 70vw;
+}
+
+
+nav{
+  flex-wrap: wrap;
+}
+
+}
